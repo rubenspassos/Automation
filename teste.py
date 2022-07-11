@@ -1,8 +1,10 @@
 import pyautogui as spam
 from time import sleep
 
+# Criei este código para envio automatico em aplicativos de mensagens
+
 # Mostra onde esta o cursor do mouse, usa-se as coordenadas para inserir no laço
-#import mouse
+# import mouse
 #while True:
 #    print(mouse.get_position())
 #    sleep(1)
@@ -13,11 +15,10 @@ from time import sleep
 msg =  str(input('Digite a mensagem: '))
 
 i = 0
-
 sleep(2)
 
 while True:#i < int(limite_msg):
-    spam.click(1126, 684)
+    spam.click(1126, 684) #
     spam.typewrite(msg)
     sleep(5)
     spam.click(1342, 684)

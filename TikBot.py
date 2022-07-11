@@ -12,13 +12,13 @@ from time import sleep
 # Define uma quantidade finita de repetições
 #limite_msg = int(input('Entre com o numero de mensagem que deseja enviar: '))
 
-msg =  str(input('Digite a mensagem: '))
+msg = str(input('Digite a mensagem: '))
 
 i = 0
 sleep(2)
 
 while True:#i < int(limite_msg):
-    spam.click(1126, 684) #
+    spam.click(1126, 684)
     spam.typewrite(msg)
     sleep(5)
     spam.click(1342, 684)

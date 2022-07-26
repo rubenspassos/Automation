@@ -20,6 +20,6 @@ sleep(2)
 while True:#i < int(limite_msg):
     spam.click(1126, 684)
     spam.typewrite(msg)
-    sleep(5)
+    sleep(4)
     spam.click(1342, 684)
     i += 1
